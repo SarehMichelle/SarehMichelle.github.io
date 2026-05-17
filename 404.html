@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found — Get Growing Marketing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:#0B2F3A;color:#F5F0E8;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 24px}
+.wrap{max-width:520px}
+.num{font-family:'DM Mono',monospace;font-size:96px;font-weight:500;color:#2E8B74;line-height:1;margin-bottom:8px;letter-spacing:-4px}
+.serif{font-family:'Fraunces',Georgia,serif;font-style:italic;font-size:clamp(28px,4vw,40px);color:#F5F0E8;line-height:1.15;margin-bottom:16px}
+.sub{font-size:15px;color:rgba(245,240,232,0.6);line-height:1.7;margin-bottom:36px}
+.btn{display:inline-block;background:#D4623A;color:#F5F0E8;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;padding:14px 32px;border-radius:7px;text-decoration:none;transition:opacity 0.2s}
+.btn:hover{opacity:0.88}
+.link{display:block;margin-top:16px;font-size:13px;color:rgba(245,240,232,0.5);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.link:hover{color:rgba(245,240,232,0.8)}
+</style>
+<script>
+// Redirect to homepage after 8 seconds
+setTimeout(function(){ window.location.href = '/'; }, 8000);
+</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="num">404</div>
+  <h1 class="serif">This page took a wrong turn somewhere in the Pacific.</h1>
+  <p class="sub">The page you're looking for doesn't exist — but your next great booking is one click away.</p>
+  <a href="/" class="btn">Take Me Home →</a>
+  <span class="link" onclick="history.back()">← Go back to where you were</span>
+</div>
+</body>
+</html>
