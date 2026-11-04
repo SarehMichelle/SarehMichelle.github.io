@@ -1,0 +1,20 @@
+{
+  "name": "OutVenture Media",
+  "short_name": "OutVenture",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F5F0E8",
+  "theme_color": "#0B2F3A",
+  "icons": [
+    {
+      "src": "/img/brand/outventure-icon-png-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/brand/outventure-icon-png-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
